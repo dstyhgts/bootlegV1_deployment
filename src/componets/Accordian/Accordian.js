@@ -62,6 +62,12 @@ const AccordianSection = styled.div`
     position: relative;
     height: 100vh;
     background: #010606;
+    z-index: 1;
+    height: 1000px;
+    width: 100%;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
 `;
 
 const Container = styled.div`

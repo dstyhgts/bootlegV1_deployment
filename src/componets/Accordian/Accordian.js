@@ -3,8 +3,6 @@ import { Data } from './Data';
 import styled from 'styled-components'
 import {IconContext} from 'react-icons'
 import {FiPlus, FiMinus} from 'react-icons/fi'
-import Icon1 from '../../images/51.png'
-import Video from '../../videos/video.mp4'
 
 
 // export const AccordianContainer = styled.div`

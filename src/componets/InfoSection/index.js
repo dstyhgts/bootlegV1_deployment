@@ -1,6 +1,5 @@
 import React from 'react'
 import {Button} from '../ButtonElement'
-import Video from '../../videos/video.mp4'
 
 import {
     InfoContainer,

@@ -3,7 +3,7 @@ import Sidebar from '../componets/Sidebar';
 import Navbar from '../componets/Navbar';
 import HeroSection from '../componets/HeroSection';
 import InfoSection from '../componets/InfoSection';
-import { HomeObjFive, HomeObjFour, HomeObjOne, HomeObjThree, HomeObjTwo } from '../componets/InfoSection/Data';
+import { HomeObjFour, HomeObjOne, HomeObjThree, HomeObjTwo } from '../componets/InfoSection/Data';
 import ServicesTeam from '../componets/ServicesTeam';
 import Services from '../componets/Services';
 import Footer from '../componets/Footer';

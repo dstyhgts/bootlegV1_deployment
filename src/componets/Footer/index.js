@@ -1,6 +1,6 @@
 import React from 'react'
 import {animateScroll as scroll} from 'react-scroll'
-import { FaDiscord, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaDiscord, FaTwitter, FaYoutube } from 'react-icons/fa'
 import {FooterContainer, 
     FooterWrap, 
     FooterLinksContainer, 

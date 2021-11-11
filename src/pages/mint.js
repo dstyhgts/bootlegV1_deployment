@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Navbar from '../componets/Navbar'
-import {ScrollToTop} from '../componets/ScrollToTop'
+import ScrollToTop from '../componets/ScrollToTop.js'
 import Sidebar from '../componets/Sidebar'
 import MintSection from '../componets/Mint'
 
@@ -13,9 +13,9 @@ const MintPage = () => {
 
     return (
         <>
-            <scrollToTop />
-            {/* <Sidebar isOpen={isOpen} toggle={toggle} />
-           <Navbar toggle={toggle} /> */}
+            <ScrollToTop />
+            <Sidebar isOpen={isOpen} toggle={toggle} />
+           <Navbar toggle={toggle} />
            <MintSection />
            
         </>

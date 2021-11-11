@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+
 import styled from 'styled-components'
-import Video from '../../videos/video.mp4'
 
 
 //about "wen doorfinn"

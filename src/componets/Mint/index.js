@@ -9,8 +9,6 @@ import {
     MintH1,
     MintP,
     MintBtnWrapper,
-    MintArrowForward,
-    MintArrowRight
 } from './MintElements'
 
 const MintSection = () => {

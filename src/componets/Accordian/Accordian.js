@@ -61,7 +61,6 @@ const AccordianSection = styled.div`
     justify-content: center;
     position: relative;
     height: 100vh;
-    background: #010606;
     z-index: 1;
     height: 1000px;
     width: 100%;
@@ -123,14 +122,14 @@ const Dropdown = styled.div`
 `
 
 export const TopLine = styled.p`
-    color: #fff;
+    color: #a74cff;
     font-size: 120px;
     display: flex;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 100vh;
     padding-bottom: 16px;
 `

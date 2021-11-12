@@ -92,6 +92,18 @@ const Navbar = ({toggle}) => {
                         WTF
                         </NavLinks>
                     </NavItem>
+                    <NavItem>
+                        <NavLinks 
+                         to='ServicesTeam'
+                         smooth={TextTrackCue}
+                         duration={500} 
+                         spy={true}
+                         exact='true' 
+                         offset={-80}
+                        >
+                        Team
+                        </NavLinks>
+                    </NavItem>
                      <NavItem>
                          <NavSocialIconLink 
                             href="//www.discord.gg/7D6cCPJvHj" 

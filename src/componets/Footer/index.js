@@ -40,7 +40,7 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterLinkTitle>Doorfinn (As Seen On TV)</FooterLinkTitle>
                             <FooterLink to='/Mint'>Mint</FooterLink>
-                                <FooterLink to='/Rarities'>Rarities</FooterLink>
+                                <FooterLink to='/Rarities'>Rarities (Coming 11/15)</FooterLink>
                             <FootSocialIconLink 
                                     href="//magiceden.io" 
                                     target="_blank"

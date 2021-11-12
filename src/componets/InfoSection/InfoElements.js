@@ -41,7 +41,7 @@ export const InfoWrapper = styled.div`
     margin-right: auto;
     margin-left: auto;
     padding: 0 24px;
-    justify-content: centers;
+    justify-content: center;
 `
 
 export const InfoRow = styled.div`
@@ -88,7 +88,7 @@ export const Heading = styled.h1`
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({lightText}) => (lightText ? 'white' : 'black')
+    color: ${({lightText}) => (lightText ? '#fff' : '#010606')
     };
 
     @media screen and (max-width: 480px) {

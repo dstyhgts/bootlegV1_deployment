@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaDiscord, FaTwitter } from 'react-icons/fa';
 import {
     SidebarContainer, 
     Icon, 
@@ -7,7 +8,8 @@ import {
     SidebarMenu,
     SidebarLink,
     SideBtnWrap,
-    SidebarRoute
+    SidebarRoute,
+    SidebarSocialIconLink
     } 
     from './SidebarElements'
 
@@ -25,8 +27,16 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to='roadmap' onClick={toggle}>Roadmap</SidebarLink>
                     <SidebarLink to='about' onClick={toggle}>About</SidebarLink>
                     <SidebarLink to='WTF' onClick={toggle}>WTF</SidebarLink>
-                    <SidebarLink to='discord' onClick={toggle}>Discord</SidebarLink>
-                    <SidebarLink to='twitter' onClick={toggle}>Twitter</SidebarLink>
+                    <SidebarSocialIconLink href="//www.discord.gg/7D6cCPJvHj" target="_blank"
+                            aria-label="Discord">
+                                <FaDiscord />
+
+                                </SidebarSocialIconLink>
+                    <SidebarSocialIconLink href="//www.twitter.com/doorfinns" target="_blank"
+                            aria-label="Twitter">
+                                <FaTwitter />
+
+                                </SidebarSocialIconLink>
                 </SidebarMenu>
                 <SideBtnWrap>
                     <SidebarRoute to='/mint'>Mint</SidebarRoute>

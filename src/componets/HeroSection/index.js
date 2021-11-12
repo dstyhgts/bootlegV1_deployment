@@ -40,7 +40,7 @@ const HeroSection = () => {
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button 
-                        to='/mint' 
+                        to='mint' 
                         onMouseEnter={onHover}
                         onMouseLeave={onHover}
                         primary='true'

@@ -98,8 +98,8 @@ const Wrap = styled.div`
 `
 
 const Dropdown = styled.div`
-    background: #a74cff;
-    color: #fff;
+    background: #010606;
+    color: #FFf;
     width: 100%;
     max-height: 150px;
     max-width: 768px;
@@ -107,17 +107,15 @@ const Dropdown = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #fff;
-    border-top: 1px solid #fff;
-    border-left: 1px solid #fff;
-    border-right: 1px solid #fff;
+    border-bottom: 2px solid #a74cff;
+    
 
     p {
         font-size: 1rem;
         padding-left: 2rem;
         padding-right: 2rem;
         padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
+        padding-bottom: 1.5rem;
     }
 `
 
@@ -129,7 +127,7 @@ export const TopLine = styled.p`
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 100vh;
     padding-bottom: 16px;
 `

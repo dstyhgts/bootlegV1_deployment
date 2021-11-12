@@ -71,19 +71,53 @@ export const HomeObjFour = {
     darkText: false
 }
 
-// export const HomeObjFive = {
-//     id: 'WTF',
-//     lightBg: true,
-//     lightText: false,
-//     lightTextDesc: true,
-//     topLine: 'WTF?',
-//     headline: 'Questions?',
-//     description: 'As the Bootleg team grows, our projects will strive to further Web3 developement for filmmakers, storytellers and collectors alike. Our goal is to create a platform, but understand that the landscape of the word "platform" ebbs and flows, and may take on wholly new meaning soon. We will not promise nor make clear anything until it is actually going to happen. No part of this process will be secret, in facets will be spoken about at length in the DoorfinnDAO. Even if it just ends up being Dsty and 8,888 colorful doorfuckers.', 
-//     buttonLabel: 'WTFpaper',
-//     imgStart: true,
-//     img: require('../../images/51.png'), 
-//     alt: 'finn',
-//     dark: true,
-//     primary: true,
-//     darkText: false
-// }
+export const HomeObjFive = {
+    id: 'bootlegs',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Bootlegs?',
+    headline: 'Too Much?',
+    description: 'As the Bootleg team grows, our projects will strive to further Web3 developement for filmmakers, storytellers and collectors alike. Our goal is to create a platform, but understand that the landscape of the word "platform" ebbs and flows, and may take on wholly new meaning soon. We will not promise nor make clear anything until it is actually going to happen. No part of this process will be secret, in facets will be spoken about at length in the DoorfinnDAO. Even if it just ends up being Dsty and 8,888 colorful doorfuckers.', 
+    buttonLabel: 'WTFpaper',
+    imgStart: true,
+    img: Icon7, 
+    alt: 'finn',
+    dark: true,
+    primary: true,
+    darkText: false
+}
+
+export const HomeObjSix = {
+    id: 'bootlegs',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Bootlegs?',
+    headline: 'Too Much?',
+    description: 'As the Bootleg team grows, our projects will strive to further Web3 developement for filmmakers, storytellers and collectors alike. Our goal is to create a platform, but understand that the landscape of the word "platform" ebbs and flows, and may take on wholly new meaning soon. We will not promise nor make clear anything until it is actually going to happen. No part of this process will be secret, in facets will be spoken about at length in the DoorfinnDAO. Even if it just ends up being Dsty and 8,888 colorful doorfuckers.', 
+    buttonLabel: 'WTFpaper',
+    imgStart: true,
+    img: Icon7, 
+    alt: 'finn',
+    dark: true,
+    primary: true,
+    darkText: false
+}
+
+export const HomeObjSeven = {
+    id: 'bootlegs',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Bootlegs?',
+    headline: 'Too Much?',
+    description: 'As the Bootleg team grows, our projects will strive to further Web3 developement for filmmakers, storytellers and collectors alike. Our goal is to create a platform, but understand that the landscape of the word "platform" ebbs and flows, and may take on wholly new meaning soon. We will not promise nor make clear anything until it is actually going to happen. No part of this process will be secret, in facets will be spoken about at length in the DoorfinnDAO. Even if it just ends up being Dsty and 8,888 colorful doorfuckers.', 
+    buttonLabel: 'WTFpaper',
+    imgStart: true,
+    img: Icon7, 
+    alt: 'finn',
+    dark: true,
+    primary: true,
+    darkText: false
+}

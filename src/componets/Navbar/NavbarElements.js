@@ -30,7 +30,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-    color: #fff;
+    color: #FFF;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -100,7 +100,7 @@ export const NavBtnLink = styled(LinkR)`
     background: #a74cff;
     white-space: nowrap;
     padding: 10px 22px;
-    color: #010606;
+    color: #fff;
     font-size: 16px;
     outline: none;
     border: none;
@@ -114,3 +114,14 @@ export const NavBtnLink = styled(LinkR)`
         color: #a74cff;
     }
 `;
+
+export const NavSocialIconLink = styled.a`
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+    font-size: 24px;
+`

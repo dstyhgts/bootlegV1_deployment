@@ -2,8 +2,9 @@ import React from 'react'
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import MintPage from './pages/mint';
+import BurnBootPage from './pages/burnmechanicsBoot';
 import Navbar from './componets/Navbar';
-import Home from './pages/index';
+import Home from './pages';
 import Sidebar from './componets/Sidebar';
 
 
@@ -17,6 +18,7 @@ function App() {
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/mint" component={MintPage} exact />
+        <Route path="/burnmechanicsBoot" component={BurnBootPage} exact />
       </Switch>
     </Router> 
   ); 

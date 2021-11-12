@@ -101,3 +101,20 @@ export const SocialIconLink = styled.a`
     color: #fff;
     font-size: 24px;
 `
+
+export const FootSocialIconLink = styled.a`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px;
+    text-align: left;
+    width: 100px;
+    box-sizing: border-box;
+    color: #fff;
+    padding-bottom: 5px;
+
+    &:hover {
+            color: #01bf71;
+            transition: 0.3s ease-out;
+    }
+`

@@ -11,7 +11,8 @@ import {
     NavItem, 
     NavLinks,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
+    NavSocialIconLink
 } from './NavbarElements';
 
 
@@ -88,20 +89,24 @@ const Navbar = ({toggle}) => {
                          exact='true' 
                          offset={-80}
                         >
-                            WTF
+                        WTF
                         </NavLinks>
                     </NavItem>
                      <NavItem>
-                         <NavLinks href="//www.discord.gg/7D6cCPJvHj" target="_blank"
+                         <NavSocialIconLink 
+                            href="//www.discord.gg/7D6cCPJvHj" 
+                            target="_blank"
                             aria-label="Discord">
                                 <FaDiscord />
-                            </NavLinks>
+                            </NavSocialIconLink>
                      </NavItem>
                      <NavItem>
-                         <NavLinks href="//www.twitter.com/doorfinns" target="_blank"
+                         <NavSocialIconLink 
+                            href="//www.twitter.com/doorfinns" 
+                            target="_blank"
                             aria-label="Twitter">
                                 <FaTwitter />
-                            </NavLinks>
+                            </NavSocialIconLink>
                      </NavItem>
                  </NavMenu>
                     <NavBtn>

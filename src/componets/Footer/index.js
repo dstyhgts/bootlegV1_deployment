@@ -14,6 +14,7 @@ import {FooterContainer,
     WebsiteRights,
     SocialIcons,
     SocialIconLink,
+    FootSocialIconLink
 } from './FooterElements'
 
 const Footer = () => {
@@ -28,28 +29,39 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>"bootlegs"</FooterLinkTitle>
-                                <FooterLink to='/'>Burn Mechanics</FooterLink>
-                                <FooterLink to='/'>Physical Design</FooterLink>
-                                <FooterLink to='/'>What's Next?</FooterLink>
-                                <FooterLink to='/'>BootDAO</FooterLink>
+                                <FooterLink to='/burnmechanicsBoot'>Burn Mechanics</FooterLink>
+                                <FooterLink to='/burnmechanicsBoot'>Physical Design</FooterLink>
+                                <FooterLink to='/burnmechanicsBoot'>What's Next?</FooterLink>
+                                <FootSocialIconLink 
+                                    href="//opensea.io/collection/thebootlegs" 
+                                    target="_blank"
+                                    aria-label="Opensea">Buy on Opensea</FootSocialIconLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Doorfinn (As Seen On TV)</FooterLinkTitle>
-                                <FooterLink to='/'>Burn Mechanics</FooterLink>
-                                <FooterLink to='/'>Physical Design</FooterLink>
-                                <FooterLink to='/'>What's Next?</FooterLink>
-                                <FooterLink to='/'>DoorfinnDAO</FooterLink>
+                            <FooterLink to='/Mint'>Mint</FooterLink>
+                                <FooterLink to='/Rarities'>Rarities</FooterLink>
+                            <FootSocialIconLink 
+                                    href="//magiceden.io" 
+                                    target="_blank"
+                                    aria-label="Opensea">Magic Eden</FootSocialIconLink>
+                                <FootSocialIconLink 
+                                    href="//solanart.io" 
+                                    target="_blank"
+                                    aria-label="Opensea">Solanart</FootSocialIconLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
-                    <FooterLinksWrapper>
+                    {/* <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Connect</FooterLinkTitle>
-                                <FooterLink to='/'>Twitter</FooterLink>
-                                <FooterLink to='/'>Discord</FooterLink>
+                                <FootSocialIconLink href="//www.twitter.com/doorfinns" target="_blank"
+                            aria-label="Twitter">Twitter</FootSocialIconLink>
+                                <FootSocialIconLink href="//www.discord.gg/7D6cCPJvHj" target="_blank"
+                            aria-label="Discord">Discord</FootSocialIconLink>
                                 <FooterLink to='/'>Contact</FooterLink>
                                 <FooterLink to='/'>Want to help?</FooterLink>
                         </FooterLinkItems>
-                    </FooterLinksWrapper>
+                    </FooterLinksWrapper> */}
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>

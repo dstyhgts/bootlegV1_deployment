@@ -25,6 +25,6 @@ export const Data = [
     },
     {
         question: 'Really, Why Solana?',
-        answer: 'Solana has the fastes transactions and lowest fees for minting and aquiring NFTs. My first time aping into a project on Sol was by far the ebst expirience Ive had with NFTs. Its an extremely young ecosystem that I believe in whole heartedly as one day the dominate NFT chain.'
+        answer: 'I want to get my friends into this space, and I want to be able to send them NFTs. That is why I believe in Solana, and equivelent proof-of-history protocols for NFTs. From art to films, I believe that is the only way to truly ever own something without needing to worry about wallet-exhausting fees.'
     },
 ]

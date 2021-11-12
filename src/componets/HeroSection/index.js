@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video.mp4'
-import { Button } from '../ButtonElement'
+import { BootButton } from '../ButtonElement'
 import {
     HeroContainer, 
     HeroBg, 
@@ -33,27 +33,22 @@ const HeroSection = () => {
                 <HeroH1>NEW! Doorfinns (As Seen On)
                     </HeroH1>
                 <HeroP>
-                    8,888 ways to get your Doorfinns' pumping, under 
+                    5,555 ways to get your Doorfinns' pumping, under 
                     the insatiable direction of Dsty Hgts. 
                     Minting only on Solana. 
-                    Show Starts November 5th @11pm UTC
+                    Show Starts November 15th @11pm UTC
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button 
-                        to='mint' 
+                    <BootButton 
+                        to="/mint"
                         onMouseEnter={onHover}
                         onMouseLeave={onHover}
                         primary='true'
                         dark='true'
-                        smooth={true} 
-                        duration={500} 
-                        spy={true}
-                        exact='true' 
-                        offset={-80}
                     >
                     Feeling Doorfinn? {!hover ? <ArrowForward /> : <ArrowRight
                     />}
-                    </Button>
+                    </BootButton>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

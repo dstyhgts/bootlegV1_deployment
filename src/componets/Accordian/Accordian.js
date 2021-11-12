@@ -101,7 +101,7 @@ const Dropdown = styled.div`
     background: #010606;
     color: #FFf;
     width: 100%;
-    max-height: 150px;
+    max-height: 190px;
     max-width: 768px;
     display: flex;
     flex-direction: column;
@@ -128,7 +128,7 @@ export const TopLine = styled.p`
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-top: 200px;
-    margin-bottom: 100vh;
+    margin-bottom: 978px;
     padding-bottom: 16px;
 `
 

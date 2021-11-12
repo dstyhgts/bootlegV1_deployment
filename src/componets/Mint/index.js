@@ -27,10 +27,10 @@ const MintSection = () => {
             </MintBg>
             <MintContent>
                 <MintH1> Minting begins
-                    11/5 @ 11pm UTC
+                    11/15 @ 11pm UTC
                     </MintH1>
                 <MintP>
-                    8,888/8,888
+                    5,555/5,555
     
                 </MintP>
                 <MintBtnWrapper>

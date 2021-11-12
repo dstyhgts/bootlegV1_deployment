@@ -20,18 +20,24 @@ const ServicesTeam = () => {
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1}/>
-                    <ServicesH2>DstyHgts - Artist</ServicesH2>
+                    <ServicesH2>DstyHgts - Artist/Developer</ServicesH2>
                     <ServicesP>Started telling stories as an actor, then moved to directing and editing Music Videos and Films. Hoping to make them stick together on the dectralized Web. The stories/Movies, and maybe some acting. </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
-                    <ServicesH2>DstyHgts - Developer</ServicesH2>
-                    <ServicesP>Wrote final college paper on Bitcoin in 2017. Read the entire whitepaper. Didn't understand a thing at the time. Also, hi anon, you could easily find him online if you throw some vowels in.</ServicesP>
+                    <ServicesH2>Edg3s - Advisor/Developer</ServicesH2>
+                    <ServicesP>A prominet web3 investor and artist, making his mark on generative art and DeFi.
+                        He works for a big company that didn't even know how to use a computer before he showed up.</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon3}/>
-                    <ServicesH2>DstyHgts - "Real"</ServicesH2>
-                    <ServicesP>Didn't think of creating made-up teammates before he started telling people he's made this all alone. Won't make up a team, I'll build one and you can watch. New Brushstrokes, Same Game.</ServicesP>
+                    <ServicesH2>Strange Eventful History - Writers</ServicesH2>
+                    <ServicesP>A New York Based collective of filmmakers, writers, actors, and performers - Strange Eventful History is a creative powerhouse of every facet of creative direction and production. From short films to musical albums and long-form plays - SEH will set the new standard for ARG expiriences and multi-media world building entertainment.</ServicesP>
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon src={Icon3}/>
+                    <ServicesH2>BootDAO</ServicesH2>
+                    <ServicesP>Early supporters of Dsty include @KnowMansLand, @cryptojuba, @edg3s, @charliemunn, @slothdeboss. All are integral memebrs to how this project got to where it is, though they may not realize it. In the next phase, Dsty hopes to bring them on in much more literal ways.</ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>

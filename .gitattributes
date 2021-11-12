@@ -15,3 +15,6 @@
 /src/images/svg-1.svg filter=lfs diff=lfs merge=lfs -text
 /src/images/svg-2.svg filter=lfs diff=lfs merge=lfs -text
 /src/videos/video.mp4 filter=lfs diff=lfs merge=lfs -text
+/src/images/Combo.gif filter=lfs diff=lfs merge=lfs -text
+/src/images/GenesisStub.gif filter=lfs diff=lfs merge=lfs -text
+/src/images/TearPunch.gif filter=lfs diff=lfs merge=lfs -text

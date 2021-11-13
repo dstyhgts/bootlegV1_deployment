@@ -18,6 +18,8 @@ import {
 
 const BootInfoSection = ({
     lightBg, 
+    yellowBg,
+    yellowText,
     id, 
     imgStart, 
     topLine, 
@@ -35,12 +37,12 @@ const BootInfoSection = ({
 }) => {
     return (
         <>
-           <InfoContainer id={id} lightBg={lightBg}>
+           <InfoContainer id={id} lightBg={lightBg} yellowBg={yellowBg}>
                <InfoWrapper >
                    <InfoRow imgStart={imgStart}>
                        <Column1>
                        <TextWrapper>
-                           <TopLine>{topLine}</TopLine>
+                           <TopLine yellowText={yellowText}>{topLine}</TopLine>
                            <Heading lightText={lightText}>{headline}</
                            Heading>
                            <Subtitle darkText={darkText}>{description}</Subtitle>

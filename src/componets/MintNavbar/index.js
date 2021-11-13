@@ -46,7 +46,7 @@ const Navbar = ({toggle}) => {
                      <BootNavBtnLink to='/'>"doorfinns"</BootNavBtnLink>
                      </NavItem>
                     <NavItem>
-                    <BootNavBtnLink to='/'>"bootlegs"</BootNavBtnLink>
+                    <BootNavBtnLink to='/bootlegs'>"bootlegs"</BootNavBtnLink>
                      </NavItem>
                      <NavItem>
                          <NavSocialIconLink 

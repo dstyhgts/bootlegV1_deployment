@@ -74,7 +74,7 @@ export const TextWrapper = styled.div`
 `
 
 export const TopLine = styled.p`
-    color: #a74cff;
+    color: ${({yellowText}) => (yellowText ? '#ffff00' : '#a74cff')};
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;

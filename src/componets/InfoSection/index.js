@@ -18,6 +18,7 @@ import {
 
 const InfoSection = ({
     lightBg, 
+    yellowBg,
     id, 
     imgStart, 
     topLine, 
@@ -34,7 +35,7 @@ const InfoSection = ({
 }) => {
     return (
         <>
-           <InfoContainer id={id} lightBg={lightBg}>
+           <InfoContainer id={id} lightBg={lightBg} yellowBg={yellowBg}>
                <InfoWrapper >
                    <InfoRow imgStart={imgStart}>
                        <Column1>

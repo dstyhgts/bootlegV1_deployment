@@ -12,7 +12,7 @@ import {
     NavLinks,
     NavBtn,
     NavBtnLink,
-    DoorNavBtnLink,
+    BootNavBtnLink,
     NavSocialIconLink
 } from './NavbarElements';
 
@@ -47,14 +47,14 @@ const Navbar = ({toggle}) => {
                  <NavMenu>
                      <NavItem>
                         <NavLinks 
-                         to='doorfinns' 
+                         to='bootlegs' 
                          smooth={TextTrackCue} 
                          duration={500} 
                          spy={true}
                          exact='true' 
                          offset={-80}
                         >
-                             Doorfinns
+                             Bootlegs
                         </NavLinks>
                      </NavItem>
                      <NavItem>
@@ -71,14 +71,14 @@ const Navbar = ({toggle}) => {
                      </NavItem>
                      <NavItem>
                         <NavLinks 
-                         to='about'
+                         to='burn mechanics'
                          smooth={TextTrackCue}
                          duration={500} 
                          spy={true}
                          exact='true' 
                          offset={-80}
                         >
-                             About
+                             Burn Mechanics
                         </NavLinks>
                      </NavItem>
                      <NavItem>
@@ -106,8 +106,8 @@ const Navbar = ({toggle}) => {
                         </NavLinks>
                     </NavItem>
                     <NavItem>
-                    <DoorNavBtnLink to='/bootlegs'>"bootlegs"</DoorNavBtnLink>
-                    </NavItem>
+                    <BootNavBtnLink to='/'>"doorfinns"</BootNavBtnLink>
+                     </NavItem>
                      <NavItem>
                          <NavSocialIconLink 
                             href="//www.discord.gg/7D6cCPJvHj" 

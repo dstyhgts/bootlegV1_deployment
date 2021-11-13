@@ -18,3 +18,5 @@
 /src/images/Combo.gif filter=lfs diff=lfs merge=lfs -text
 /src/images/GenesisStub.gif filter=lfs diff=lfs merge=lfs -text
 /src/images/TearPunch.gif filter=lfs diff=lfs merge=lfs -text
+/src/images/PhonyDrum.gif filter=lfs diff=lfs merge=lfs -text
+/src/videos/SunRise.mp4 filter=lfs diff=lfs merge=lfs -text

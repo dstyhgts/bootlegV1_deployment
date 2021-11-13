@@ -24,12 +24,12 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='doorfinns' onClick={toggle}>Doorfinns</SidebarLink>
+                    <SidebarLink to='bootlegs' onClick={toggle}>Bootlegs</SidebarLink>
                     <SidebarLink to='roadmap' onClick={toggle}>Roadmap</SidebarLink>
-                    <SidebarLink to='about' onClick={toggle}>About</SidebarLink>
+                    <SidebarLink to='burn mechanics' onClick={toggle}>Burn Mechanics</SidebarLink>
                     <SidebarLink to='WTF' onClick={toggle}>WTF</SidebarLink>
                     <SidebarLink to='ServicesTeam' onClick={toggle}>Team</SidebarLink>
-                    <BootSidebarRoute to='bootlegs' onClick={toggle}>"bootlegs"</BootSidebarRoute>
+                    <BootSidebarRoute to='/' onClick={toggle}>"doorfinns"</BootSidebarRoute>
                 </SidebarMenu>
                 <SideBtnWrap>
                     <SidebarRoute to='/mint'>Mint</SidebarRoute>

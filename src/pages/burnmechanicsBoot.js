@@ -1,11 +1,12 @@
 import React, {useState} from 'react'
-import Navbar from '../componets/Navbar'
+import BootNavbar from '../componets/BootNavbar'
 import ScrollToTop from '../componets/ScrollToTop.js'
-import Sidebar from '../componets/Sidebar'
+import BootSidebar from '../componets/BootSidebar'
 import BurnMechBootSection from '../componets/BurnMechanics'
 import BootInfoSection from '../componets/InfoSection/indexBoot';
-import { HomeObjFive, HomeObjSix, HomeObjSeven } from '../componets/InfoSection/Data';
+import { HomeObjFive, HomeObjSix, HomeObjSeven, HomeObjEight } from '../componets/InfoSection/Data';
 import Footer from '../componets/Footer'
+import ServicesTeam from '../componets/ServicesTeam'
 
 
 const BurnBootPage = () => {
@@ -18,12 +19,14 @@ const BurnBootPage = () => {
     return (
         <>
             <ScrollToTop />
-            <Sidebar isOpen={isOpen} toggle={toggle} />
-           <Navbar toggle={toggle} />
+            <BootSidebar isOpen={isOpen} toggle={toggle} />
+           <BootNavbar toggle={toggle} />
            <BurnMechBootSection />
            <BootInfoSection {...HomeObjFive} />
+           <BootInfoSection {...HomeObjEight} />
            <BootInfoSection {...HomeObjSix} />
            <BootInfoSection {...HomeObjSeven} />
+           <ServicesTeam />
            <Footer />
            
         </>

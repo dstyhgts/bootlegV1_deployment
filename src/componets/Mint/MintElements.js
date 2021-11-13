@@ -10,7 +10,7 @@ export const MintContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 1300px;
+    height: 1200px;
     position: relative;
     z-index: 1;
 
@@ -23,10 +23,10 @@ export const MintContainer = styled.div`
         bottom: 0;
         background: linear-gradient(
             180deg, 
-            rgba(0,0,0,0.2) 0%, 
-            rgba(0,0,0,0.6) 100% 
+            rgba(255,255,255,0) 0%, 
+            rgba(255,255,255,255) 100% 
             ),
-            linear-gradient(180deg,rgba(0,0,0,0.2) 0%, transparent
+            linear-gradient(180deg,rgba(0,0,0,0.1) 0%, transparent
             100%);
         z-index: 2;
     };
@@ -62,7 +62,7 @@ export const MintContent = styled.div`
 `
 
 export const MintH1 = styled.div`
-    color: #fff;
+    color: #9999;
     font-size: 48px;
     text-align: center;
 
@@ -77,7 +77,7 @@ export const MintH1 = styled.div`
 
 export const MintP = styled.p`
     margin-top: 24px;
-    color: #fff;
+    color: #9999;
     font-size: 24px;
     text-align: center;
     max-width: 600px;

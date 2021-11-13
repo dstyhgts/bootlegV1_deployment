@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import Navbar from '../componets/Navbar'
+import Navbar from '../componets/MintNavbar'
 import ScrollToTop from '../componets/ScrollToTop.js'
-import Sidebar from '../componets/Sidebar'
+import Sidebar from '../componets/MintSidebar'
 import MintSection from '../componets/Mint'
 
 const MintPage = () => {

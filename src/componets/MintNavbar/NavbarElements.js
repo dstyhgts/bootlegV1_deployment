@@ -3,7 +3,7 @@ import { Link as  LinkR } from 'react-router-dom';
 import { Link as  LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
-    background: ${({scrollNav}) => (scrollNav ? '#00c1ff' : '#transparent')};
+    background: ${({scrollNav}) => (scrollNav ? '#transparent' : '#transparent')};
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -85,11 +85,6 @@ export const NavLinks = styled(LinkS)`
     &.active {
         border-bottom: 3px solid #a74cff;
     }
-
-    &:hover {
-        color: #a74cff;
-        transition: 0.2s ease-in-out;
-    }
 `;
 
 export const NavBtn = styled.nav`
@@ -98,10 +93,7 @@ export const NavBtn = styled.nav`
     
     @media screen and (max-width: 768px) {
         display: none;
-
-        
     }
-    
 `;
 
 export const NavBtnLink = styled(LinkR)`
@@ -135,7 +127,7 @@ export const NavSocialIconLink = styled.a`
     font-size: 24px;
 `
 
-export const DoorNavBtnLink = styled(LinkR)`
+export const BootNavBtnLink = styled(LinkR)`
     color: #fff;
     display: flex;
     align-items: center;
@@ -153,3 +145,4 @@ export const DoorNavBtnLink = styled(LinkR)`
         transition: 0.2s ease-in-out;
     }
 `;
+

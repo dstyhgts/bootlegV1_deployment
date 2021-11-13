@@ -29,9 +29,9 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>"bootlegs"</FooterLinkTitle>
-                                <FooterLink to='/burnmechanicsBoot'>Burn Mechanics</FooterLink>
-                                <FooterLink to='/burnmechanicsBoot'>Physical Design</FooterLink>
-                                <FooterLink to='/burnmechanicsBoot'>What's Next?</FooterLink>
+                                <FooterLink to='/bootlegs'>Burn Mechanics</FooterLink>
+                                <FooterLink to='/bootlegs'>Physical Design</FooterLink>
+                                <FooterLink to='/bootlegs'>What's Next?</FooterLink>
                                 <FootSocialIconLink 
                                     href="//opensea.io/collection/thebootlegs" 
                                     target="_blank"
@@ -40,7 +40,7 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterLinkTitle>Doorfinn (As Seen On TV)</FooterLinkTitle>
                             <FooterLink to='/Mint'>Mint</FooterLink>
-                                <FooterLink to='/Rarities'>Rarities (Coming 11/15)</FooterLink>
+                                <FooterLink to=''>Rarities (Coming 11/15)</FooterLink>
                             <FootSocialIconLink 
                                     href="//magiceden.io" 
                                     target="_blank"

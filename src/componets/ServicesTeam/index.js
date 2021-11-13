@@ -16,7 +16,6 @@ const ServicesTeam = () => {
     return (
         <ServicesContainer id="ServicesTeam">
             <ServicesH1>Meet The "Team"</ServicesH1>
-            <ServicesWrapper>Our Services</ServicesWrapper>
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1}/>

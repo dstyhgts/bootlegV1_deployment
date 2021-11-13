@@ -1,5 +1,7 @@
 import styled from  'styled-components'
 import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md'
+import { Link as  LinkR } from 'react-router-dom';
+
 
 
 export const HeroContainer = styled.div`
@@ -8,7 +10,7 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 800px;
+    height: 1000px;
     position: relative;
     z-index: 1;
 
@@ -21,10 +23,10 @@ export const HeroContainer = styled.div`
         bottom: 0;
         background: linear-gradient(
             180deg, 
-            rgba(0,0,0,0.2) 0%, 
-            rgba(0,0,0,0.6) 100% 
+            rgba(255,255,255,0) 0%, 
+            rgba(255,255,255,255) 100% 
             ),
-            linear-gradient(180deg,rgba(0,0,0,0.2) 0%, transparent
+            linear-gradient(180deg,rgba(0,0,0,0) 0%, transparent
             100%);
         z-index: 2;
     };
@@ -60,8 +62,8 @@ export const HeroContent = styled.div`
 `
 
 export const HeroH1 = styled.div`
-    color: #fff;
-    font-size: 48px;
+    color: #9999;
+    font-size: 64px;
     text-align: center;
 
     @media screen and (max-width: 768px) {
@@ -75,8 +77,8 @@ export const HeroH1 = styled.div`
 
 export const HeroP = styled.p`
     margin-top: 24px;
-    color: #fff;
-    font-size: 24px;
+    color: #9999;
+    font-size: 20px;
     text-align: center;
     max-width: 600px;
 
@@ -95,6 +97,29 @@ export const HeroBtnWrapper = styled.div`
     flex-direction: column;
     align-items: center;
 `;
+
+export const HeroButton = styled(LinkR)`
+    border-radius: 50px;
+    background: ${({primary}) => (primary ? '#a74cff' : '#010606')
+    };
+    white-space: nowrap;
+    padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
+    color: ${({ dark }) => (dark ? '#010606' : '#fff')};
+    font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: ${({primary}) => (primary ? '#ffff00': 
+        '#01BF71')};
+    }
+`
 
 export const ArrowForward =  styled(MdArrowForward)`
     margin-left: 8px;

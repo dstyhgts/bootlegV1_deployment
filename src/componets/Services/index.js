@@ -26,7 +26,7 @@ const Services = () => {
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
                     <ServicesH2>December</ServicesH2>
-                    <ServicesP>Community Treasuries. Public wallets.</ServicesP>
+                    <ServicesP>Welcome to DoorfinnDAO.</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon3}/>

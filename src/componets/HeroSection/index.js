@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
-import Video from '../../videos/video.mp4'
-import { BootButton } from '../ButtonElement'
+import Video from '../../videos/SunRise.mp4'
 import {
     HeroContainer, 
     HeroBg, 
@@ -10,7 +9,8 @@ import {
     HeroP,
     HeroBtnWrapper,
     ArrowForward,
-    ArrowRight
+    ArrowRight,
+    HeroButton
 } from './HeroElements'
 
 
@@ -27,7 +27,7 @@ const HeroSection = () => {
         <HeroContainer id='home'>
             <HeroBg>
                 <VideoBg autoPlay loop muted src=
-                {Video} type='video/mp4' />
+                {Video} type='SunRise/mp4' />
             </HeroBg>
             <HeroContent>
                 <HeroH1>NEW! Doorfinns (As Seen On)
@@ -39,16 +39,16 @@ const HeroSection = () => {
                     Show Starts November 15th @11pm UTC
                 </HeroP>
                 <HeroBtnWrapper>
-                    <BootButton 
+                    <HeroButton 
                         to="/mint"
                         onMouseEnter={onHover}
                         onMouseLeave={onHover}
                         primary='true'
                         dark='true'
                     >
-                    Feeling Doorfinn? {!hover ? <ArrowForward /> : <ArrowRight
+                    Minting Soon {!hover ? <ArrowForward /> : <ArrowRight
                     />}
-                    </BootButton>
+                    </HeroButton>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

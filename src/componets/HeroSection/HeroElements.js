@@ -10,7 +10,7 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 1000px;
+    height: 1100px;
     position: relative;
     z-index: 1;
 
@@ -62,7 +62,7 @@ export const HeroContent = styled.div`
 `
 
 export const HeroH1 = styled.div`
-    color: #9999;
+    color: #a74cff;
     font-size: 64px;
     text-align: center;
 
@@ -73,11 +73,17 @@ export const HeroH1 = styled.div`
     @media screen and (max-width: 480px) {
         font-size: 32px;
     }
+
+    &.hover {
+        transform: scale(1.05);
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+    }
 `
 
 export const HeroP = styled.p`
     margin-top: 24px;
-    color: #9999;
+    color: #00c1ff;
     font-size: 20px;
     text-align: center;
     max-width: 600px;
@@ -89,6 +95,12 @@ export const HeroP = styled.p`
     @media screen and (max-width: 480px) {
         font-size: 18px;
     };
+
+    &.hover {
+        transform: scale(1.05);
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+    }
 `;
 
 export const HeroBtnWrapper = styled.div`
@@ -116,7 +128,7 @@ export const HeroButton = styled(LinkR)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: ${({primary}) => (primary ? '#ffff00': 
+        background: ${({primary}) => (primary ? '#00c1ff': 
         '#01BF71')};
     }
 `

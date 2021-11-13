@@ -60,7 +60,6 @@ const AccordianSection = styled.div`
     align-items: center;
     justify-content: center;
     position: relative;
-    height: 100vh;
     z-index: 1;
     height: 1000px;
     width: 100%;
@@ -101,7 +100,7 @@ const Dropdown = styled.div`
     background: #00c1ff;
     color: #fff;
     width: 100%;
-    max-height: 190px;
+    height: 190px;
     max-width: 768px;
     display: flex;
     flex-direction: column;

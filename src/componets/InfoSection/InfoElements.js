@@ -25,7 +25,8 @@ import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
     color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#fff' : '#010606')};
+    background: ${({lightBg}) => (lightBg ? 'Transparent' : '#010606')};
+    background-image: Icon13;
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -35,7 +36,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 100vh;
+    height: 1000px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -63,7 +64,7 @@ export const Column1 = styled.div`
 
 export const Column2 = styled.div`
     margin-bottom: 15px;
-    padding: 0 15px;
+    padding: 0 25px;
     grid-area: col2;
 `
 
@@ -75,7 +76,7 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
     color: ${({yellowText}) => (yellowText ? '#ffff00' : '#a74cff')};
-    font-size: 16px;
+    font-size: 18px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;

@@ -30,7 +30,7 @@ const HeroSection = () => {
                 {Video} type='SunRise/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>NEW! Doorfinns (As Seen On)
+                <HeroH1>NEW! "Doorfinns (As Seen On)" 
                     </HeroH1>
                 <HeroP>
                     5,555 ways to get your Doorfinns' pumping, under 

@@ -1,7 +1,8 @@
 import React from 'react'
-import Icon1 from '../../images/51.png'
-import Icon2 from '../../images/49.png'
-import Icon3 from '../../images/50.png'
+import Icon1 from '../../images/1409.png'
+import Icon2 from '../../images/2164.png'
+import Icon3 from '../../images/1951.png'
+import Icon4 from '../../images/1955.png'
 import {
     ServicesContainer,
     ServicesH1,
@@ -34,7 +35,7 @@ const ServicesTeam = () => {
                     <ServicesP>A New York Based collective of filmmakers, writers, actors, and performers - Strange Eventful History is a creative powerhouse of every facet of creative direction and production. From short films to musical albums and long-form plays - SEH will set the new standard for ARG expiriences and multi-media world building entertainment.</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={Icon3}/>
+                    <ServicesIcon src={Icon4}/>
                     <ServicesH2>BootDAO</ServicesH2>
                     <ServicesP>Early supporters of Dsty include @KnowMansLand, @cryptojuba, @edg3s, @charliemunn, @slothdeboss. All are integral memebrs to how this project got to where it is, though they may not realize it. In the next phase, Dsty hopes to bring them on in much more literal ways.</ServicesP>
                 </ServicesCard>

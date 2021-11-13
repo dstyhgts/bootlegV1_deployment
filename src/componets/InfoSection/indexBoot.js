@@ -17,6 +17,7 @@ import {
 } from './InfoElements'
 
 const BootInfoSection = ({
+    patternBg,
     lightBg, 
     yellowBg,
     yellowText,
@@ -37,7 +38,7 @@ const BootInfoSection = ({
 }) => {
     return (
         <>
-           <InfoContainer id={id} lightBg={lightBg} yellowBg={yellowBg}>
+           <InfoContainer id={id} lightBg={lightBg} yellowBg={yellowBg} patternBg={patternBg}>
                <InfoWrapper >
                    <InfoRow imgStart={imgStart}>
                        <Column1>

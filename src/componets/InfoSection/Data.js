@@ -1,5 +1,5 @@
 import Icon2 from '../../images/6.gif'
-import Icon5 from '../../images/roadmap1big.png'
+import Icon5 from '../../images/roadmapfinal1.png'
 import Icon6 from '../../images/29.png'
 import Icon7 from '../../images/32.png'
 import Icon8 from '../../images/TearPunch.gif'
@@ -55,6 +55,7 @@ export const HomeObjThree = {
     buttonLabel: 'Feeling those Doorfinns yet?',
     imgStart: false,
     img: Icon7, 
+    pictureBg: Icon10,
     alt: 'Bob',
     dark: false,
     primary: true,

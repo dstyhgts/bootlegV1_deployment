@@ -14,10 +14,11 @@ import {
     BtnWrap,
     ImgWrap,
     Img,
+    // BackgroundImg
 } from './InfoElements'
 
 const InfoSection = ({
-    patternBg,
+    // pictureBg,
     lightBg, 
     yellowBg,
     id, 
@@ -36,7 +37,8 @@ const InfoSection = ({
 }) => {
     return (
         <>
-           <InfoContainer id={id} lightBg={lightBg} yellowBg={yellowBg} patternBg={patternBg}>
+           <InfoContainer id={id} lightBg={lightBg} yellowBg={yellowBg}>
+           {/* <BackgroundImg src={pictureBg} alt={alt}/> */}
                <InfoWrapper >
                    <InfoRow imgStart={imgStart}>
                        <Column1>

@@ -1,7 +1,7 @@
 import React from 'react'
-import Icon1 from '../../images/roadmap123.png'
-import Icon2 from '../../images/roadmap4.png'
-import Icon3 from '../../images/roadmap56.png'
+import Icon1 from '../../images/road012.png'
+import Icon2 from '../../images/road3.png'
+import Icon3 from '../../images/road45.png'
 import {
     ServicesContainer,
     ServicesH1,

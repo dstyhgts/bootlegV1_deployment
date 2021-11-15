@@ -10,7 +10,11 @@ import {
     HeroBtnWrapper,
     ArrowForward,
     ArrowRight,
-    HeroButton
+    HeroButton,
+    HeroImg,
+    ImgWrap,
+    LogoImg,
+    Logo,
 } from './HeroElements'
 
 
@@ -30,13 +34,20 @@ const HeroSection = () => {
                 {Video} type='SunRise/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>NEW! "Doorfinns (As Seen On)" 
+                <Logo>
+                <ImgWrap>
+                    <LogoImg src=
+                {Image} type='6.gif'/>
+                </ImgWrap>
+                </Logo>
+                <HeroImg>NEW!</HeroImg>
+                <HeroH1>"Doorfinns (As Seen On)" 
                     </HeroH1>
                 <HeroP>
                     5,555 ways to get your Doorfinns' pumping, under 
                     the insatiable direction of Dsty Hgts. 
                     Minting only on Solana. 
-                    Show Starts November 15th @11pm UTC
+                    Show Starts November 20th @11pm UTC
                 </HeroP>
                 <HeroBtnWrapper>
                     <HeroButton 

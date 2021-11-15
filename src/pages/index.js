@@ -7,7 +7,7 @@ import { HomeObjFour, HomeObjOne, HomeObjThree, HomeObjTwo } from '../componets/
 import ServicesTeam from '../componets/ServicesTeam';
 import Services from '../componets/Services';
 import Footer from '../componets/Footer';
-import Accordian from '../componets/Accordian/Accordian';
+import Accordian from '../componets/Accordian/Accordian'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)

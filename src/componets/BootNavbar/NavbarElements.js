@@ -83,11 +83,11 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
 
     &.active {
-        border-bottom: 3px solid #a74cff;
+        border-bottom: 3px solid #ffff00;
     }
 
     &:hover {
-            color: #a74cff;
+            color: #ffff00;
             transition: 0.3s ease-out;
     }
 `;
@@ -149,11 +149,11 @@ export const BootNavBtnLink = styled(LinkR)`
     cursor: pointer;
 
     &.active {
-        border-bottom: 3px solid #a74cff;
+        border-bottom: 3px solid #ffff00;
     }
 
     &:hover {
-            color: #a74cff;
+            color: #ffff00;
             transition: 0.3s ease-out;
     }
 `;

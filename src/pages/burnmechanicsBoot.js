@@ -7,6 +7,7 @@ import BootInfoSection from '../componets/InfoSection/indexBoot';
 import { HomeObjFive, HomeObjSix, HomeObjSeven, HomeObjEight } from '../componets/InfoSection/Data';
 import Footer from '../componets/Footer'
 import ServicesTeam from '../componets/ServicesTeam'
+import AccordianBoot from '../componets/AccordianBoot/Accordian'
 
 
 const BurnBootPage = () => {
@@ -23,8 +24,9 @@ const BurnBootPage = () => {
            <BootNavbar toggle={toggle} />
            <BurnMechBootSection />
            <BootInfoSection {...HomeObjFive} />
-           <BootInfoSection {...HomeObjEight} />
            <BootInfoSection {...HomeObjSix} />
+           <BootInfoSection {...HomeObjEight} />
+           <AccordianBoot />
            <BootInfoSection {...HomeObjSeven} />
            <ServicesTeam />
            <Footer />

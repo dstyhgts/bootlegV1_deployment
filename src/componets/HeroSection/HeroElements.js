@@ -61,13 +61,61 @@ export const HeroContent = styled.div`
     align-items: center;
 `
 
+export const ImgWrap = styled.div`
+    z-index: 3;
+    max-width: 1200px;
+    position: absolute;
+    padding: 8px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`
+
+export const LogoImg = styled.img`
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding-right: 0;
+    flex-direction: column;
+    align-items: center;
+`
+
+export const Logo = styled.div`
+    margin-bottom: 15px;
+    padding: 0 15px;
+    flex-direction: column;
+    align-items: center;
+`
+
+
+export const HeroImg = styled.div`
+    color: #00c1ff;
+    font-size: 32px;
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 32px;
+    }
+
+    &.hover {
+        transform: scale(1.05);
+        transition: all 0.2s ease-in-out;
+        color: #a74cff;
+        cursor: pointer;
+    }
+`
+
+
 export const HeroH1 = styled.div`
     color: #a74cff;
     font-size: 64px;
     text-align: center;
 
     @media screen and (max-width: 768px) {
-        font-size: 40px;
+        font-size: 64px;
     }
 
     @media screen and (max-width: 480px) {

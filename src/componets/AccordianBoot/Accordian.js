@@ -56,13 +56,13 @@ import {FiPlus, FiMinus} from 'react-icons/fi'
 
 const AccordianSection = styled.div`
     display: flex;
-    background: #00c1ff;
+    background-color: #000;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
     z-index: 1;
-    height: 1100px;
+    height: 1150px;
     width: 100%;
     max-width: 3000px;
     margin-right: auto;
@@ -77,9 +77,9 @@ const Container = styled.div`
 `
 
 const Wrap = styled.div`
-    background: #00c1ff;
+    background: #ffff00;
     max-width: 768px;
-    color: #fff;
+    color: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,8 +98,8 @@ const Wrap = styled.div`
 `
 
 const Dropdown = styled.div`
-    background: #00c1ff;
-    color: #fff;
+    background: #ffff00;
+    color: #000;
     width: 100%;
     height: 190px;
     max-width: 768px;
@@ -107,7 +107,7 @@ const Dropdown = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #000;
     
 
     p {
@@ -120,7 +120,7 @@ const Dropdown = styled.div`
 `
 
 export const TopLine = styled.p`
-    color: #a74cff;
+    color: #ffff00;
     font-size: 120px;
     display: flex;
     line-height: 16px;
@@ -132,7 +132,7 @@ export const TopLine = styled.p`
     padding-bottom: 16px;
 `
 
-const Accordian = () => {
+const AccordianBoot = () => {
     const [clicked, setClicked] = useState(false)
 
     const toggle = index => {
@@ -145,7 +145,7 @@ const Accordian = () => {
 
 
     return (
-    <IconContext.Provider value={{ color: '#fff', size: '35px' }}>
+    <IconContext.Provider value={{ color: '#000', size: '35px' }}>
         {/* <AccordianBg>
                 <VideoBg autoPlay loop muted src=
                 {Video} type='video/mp4' />
@@ -174,4 +174,4 @@ const Accordian = () => {
     );
 };
 
-export default Accordian
+export default AccordianBoot

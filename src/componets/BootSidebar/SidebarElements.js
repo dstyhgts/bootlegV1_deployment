@@ -8,7 +8,7 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: #0d0d0d;
+    background: #fff;
     display: grid;
     align-items: center;
     top: 0;
@@ -55,11 +55,11 @@ export const SidebarLink = styled(LinkS)`
     list-style: none;
     transition: 0.2s ease-in-out;
     text-decoration: none;
-    color: #fff;
+    color: #0d0d0d;
     cursor: pointer;
 
     &:hover {
-        color: #a74cff;
+        color: #ffff00;
         transition: 0.2s ease-in-out;
     }
 `
@@ -83,7 +83,7 @@ export const SidebarRoute = styled(LinkR)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #fff;
+        background: #ffff00;
         color: #a74cff;
     }
 
@@ -98,17 +98,17 @@ export const BootSidebarRoute = styled(LinkR)`
     list-style: none;
     transition: 0.2s ease-in-out;
     text-decoration: none;
-    color: #fff;
+    color: #0d0d0d;
     cursor: pointer;
 
     &:hover {
-        color: #a74cff;
+        color: #ffff00;
         transition: 0.2s ease-in-out;
     }
 `
 
 export const SidebarSocialIconLink = styled.a`
-display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
@@ -118,11 +118,11 @@ display: flex;
     list-style: none;
     transition: 0.2s ease-in-out;
     text-decoration: none;
-    color: #fff;
+    color: #0d0d0d;
     cursor: pointer;
 
     &:hover {
-        color: #a74cff;
+        color: #ffff00;
         transition: 0.2s ease-in-out;
     }
 `

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video.mp4'
-import { BootButton } from '../ButtonElement'
+import { DoorButton } from '../ButtonElement'
 import {
     MintContainer, 
     MintBg, 
@@ -33,7 +33,7 @@ const BurnMechBootSection = () => {
     
                 </MintP>
                 <MintBtnWrapper>
-                    <BootButton 
+                    <DoorButton 
                         href="//opensea.io/collection/thebootlegs" 
                         target="_blank"
                         aria-label="Opensea"
@@ -42,7 +42,7 @@ const BurnMechBootSection = () => {
                         primary='true'
                         dark='true'>
                     Buy on Opensea
-                    </BootButton>
+                    </DoorButton>
                 </MintBtnWrapper>
             </MintContent>
         </MintContainer>

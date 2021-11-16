@@ -5,7 +5,7 @@ import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md'
 
 
 export const MintContainer = styled.div`
-    background: #0c0c0c;
+    background: #000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ export const MintContainer = styled.div`
     position: relative;
     z-index: 1;
 
-    :before {
+    /* :before {
         content: '';
         position: absolute;
         top: 0;
@@ -29,7 +29,7 @@ export const MintContainer = styled.div`
             linear-gradient(180deg,rgba(0,0,0,0.2) 0%, transparent
             100%);
         z-index: 2;
-    };
+    }; */
 `;
 
 export const MintBg = styled.div`
@@ -43,12 +43,11 @@ export const MintBg = styled.div`
     overflow: hidden;
 `;
 
-export const MintImageBg = styled.image`
+export const MintVideoBg = styled.video`
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    background: #232a34;
 `
 
 export const MintContent = styled.div`
@@ -61,23 +60,37 @@ export const MintContent = styled.div`
     align-items: center;
 `
 
-export const MintH1 = styled.div`
-    color: #fff;
-    font-size: 48px;
+export const MintHt = styled.div`
+    color: #a74cff;
+    font-size: 72px;
     text-align: center;
 
     @media screen and (max-width: 768px) {
-        font-size: 40px;
+        font-size: 64px;
     }
 
     @media screen and (max-width: 480px) {
+        font-size: 48px;
+    }
+`
+
+export const MintH1 = styled.div`
+    color: #00a1ff;
+    font-size: 32px;
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
         font-size: 32px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 24px;
     }
 `
 
 export const MintP = styled.p`
     margin-top: 24px;
-    color: #fff;
+    color: #00a1ff;
     font-size: 24px;
     text-align: center;
     max-width: 600px;

@@ -1,5 +1,5 @@
 import React from 'react'
-import {BootButton} from '../ButtonElement'
+import {DoorButton} from '../ButtonElement'
 
 import {
     InfoContainer,
@@ -18,6 +18,7 @@ import {
 
 const BootInfoSection = ({
     lightBg, 
+    yellowText,
     id, 
     imgStart, 
     topLine, 
@@ -40,12 +41,12 @@ const BootInfoSection = ({
                    <InfoRow imgStart={imgStart}>
                        <Column1>
                        <TextWrapper>
-                           <TopLine>{topLine}</TopLine>
+                           <TopLine yellowText={yellowText}>{topLine}</TopLine>
                            <Heading lightText={lightText}>{headline}</
                            Heading>
                            <Subtitle darkText={darkText}>{description}</Subtitle>
                            <BtnWrap>
-                               <BootButton 
+                               <DoorButton 
                                href="//opensea.io/collection/thebootlegs" 
                                 target="_blank"
                                 aria-label="Opensea"
@@ -54,7 +55,7 @@ const BootInfoSection = ({
                                primary={primary ? 1 : 0}
                                dark={dark ? 1 : 0}
                                dark2={dark2 ? 1 : 0}
-                               >{buttonLabel}</BootButton>
+                               >{buttonLabel}</DoorButton>
                             </BtnWrap>
                        </TextWrapper>
                        </Column1>

@@ -5,8 +5,8 @@ import BootSidebar from '../componets/BootSidebar'
 import BurnMechBootSection from '../componets/BurnMechanics'
 import BootInfoSection from '../componets/InfoSection/indexBoot';
 import { HomeObjFive, HomeObjSix, HomeObjSeven, HomeObjEight } from '../componets/InfoSection/Data';
-import Footer from '../componets/Footer'
-import ServicesTeam from '../componets/ServicesTeam'
+import Footer from '../componets/BootFooter'
+import ServicesTeam from '../componets/BootServicesTeam'
 // import BootAccordian from '../componets/BootAccordian/Accordian'
 
 

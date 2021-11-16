@@ -1,10 +1,11 @@
 import React, {useState} from 'react'
-import Image from '../../images/image.png'
+// import Video from '../../videos/video.mp4'
 import { Button } from '../ButtonElement'
 import {
     MintContainer, 
     MintBg, 
-    MintImageBg,
+    // MintVideoBg,
+    MintHt,
     MintContent,
     MintH1,
     MintP,
@@ -22,12 +23,13 @@ const MintSection = () => {
     return (
         <MintContainer id='mint'>
             <MintBg>
-                <MintImageBg src=
-                {Image} type='welcome.png' />
+                {/* <MintVideoBg autoPlay loop muted src=
+                {Video} type='video/mp4' /> */}
             </MintBg>
             <MintContent>
+                <MintHt>Doorfinns (as seen on)</MintHt>
                 <MintH1> Minting begins
-                    11/15 @ 11pm UTC
+                    11/18 @ 11pm UTC
                     </MintH1>
                 <MintP>
                     5,555/5,555

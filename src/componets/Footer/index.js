@@ -29,9 +29,9 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>"bootlegs"</FooterLinkTitle>
-                                <FooterLink to='/burnmechanicsBoot'>Burn Mechanics</FooterLink>
-                                <FooterLink to='/burnmechanicsBoot'>Physical Design</FooterLink>
-                                <FooterLink to='/burnmechanicsBoot'>What's Next?</FooterLink>
+                                <FooterLink to='/bootlegs'>Burn Mechanics</FooterLink>
+                                <FooterLink to='/bootlegs'>Physical Design</FooterLink>
+                                <FooterLink to='/bootlegs'>What's Next?</FooterLink>
                                 <FootSocialIconLink 
                                     href="//opensea.io/collection/thebootlegs" 
                                     target="_blank"

@@ -3,12 +3,12 @@ import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md'
 
 
 export const HeroContainer = styled.div`
-    background: #0c0c0c;
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 800px;
+    height: 1000px;
     position: relative;
     z-index: 1;
 
@@ -21,10 +21,10 @@ export const HeroContainer = styled.div`
         bottom: 0;
         background: linear-gradient(
             180deg, 
-            rgba(0,0,0,0.2) 0%, 
-            rgba(0,0,0,0.6) 100% 
+            rgba(255,255,255,0) 0%, 
+            rgba(255,255,255,0.8) 100% 
             ),
-            linear-gradient(180deg,rgba(0,0,0,0.2) 0%, transparent
+            linear-gradient(180deg,rgba(0,0,0,0) 0%, transparent
             100%);
         z-index: 2;
     };
@@ -58,10 +58,15 @@ export const HeroContent = styled.div`
     flex-direction: column;
     align-items: center;
 `
+export const HeroHt = styled.div`
+    color: #00a1ff;
+    font-size: 32px;
+    text-align: center;
+`
 
 export const HeroH1 = styled.div`
-    color: #fff;
-    font-size: 48px;
+    color: #a74cff;
+    font-size: 64px;
     text-align: center;
 
     @media screen and (max-width: 768px) {
@@ -75,7 +80,7 @@ export const HeroH1 = styled.div`
 
 export const HeroP = styled.p`
     margin-top: 24px;
-    color: #fff;
+    color: #00a1ff;
     font-size: 24px;
     text-align: center;
     max-width: 600px;

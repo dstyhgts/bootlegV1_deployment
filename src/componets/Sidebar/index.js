@@ -9,7 +9,8 @@ import {
     SidebarLink,
     SideBtnWrap,
     SidebarRoute,
-    SidebarSocialIconLink
+    SidebarSocialIconLink,
+    LinkSidebarRoute
     } 
     from './SidebarElements'
 
@@ -27,6 +28,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to='roadmap' onClick={toggle}>Roadmap</SidebarLink>
                     <SidebarLink to='about' onClick={toggle}>About</SidebarLink>
                     <SidebarLink to='WTF' onClick={toggle}>WTF</SidebarLink>
+                    <LinkSidebarRoute to='/bootlegs'>(bootlegs)</LinkSidebarRoute>
                     <SidebarSocialIconLink href="//www.discord.gg/7D6cCPJvHj" target="_blank"
                             aria-label="Discord">
                                 <FaDiscord />

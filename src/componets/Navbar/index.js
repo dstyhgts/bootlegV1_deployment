@@ -12,7 +12,8 @@ import {
     NavLinks,
     NavBtn,
     NavBtnLink,
-    NavSocialIconLink
+    NavSocialIconLink,
+    BootNavBtnLink
 } from './NavbarElements';
 
 
@@ -103,6 +104,9 @@ const Navbar = ({toggle}) => {
                         >
                         Team
                         </NavLinks>
+                    </NavItem>
+                    <NavItem>
+                    <BootNavBtnLink to='/bootlegs'>(bootlegs)</BootNavBtnLink>
                     </NavItem>
                      <NavItem>
                          <NavSocialIconLink 

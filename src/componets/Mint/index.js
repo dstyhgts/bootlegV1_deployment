@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
-import Video from '../../videos/video.mp4'
+import Image from '../../images/image.png'
 import { Button } from '../ButtonElement'
 import {
     MintContainer, 
     MintBg, 
-    MintVideoBg,
+    MintImageBg,
     MintContent,
     MintH1,
     MintP,
@@ -22,8 +22,8 @@ const MintSection = () => {
     return (
         <MintContainer id='mint'>
             <MintBg>
-                <MintVideoBg autoPlay loop muted src=
-                {Video} type='video/mp4' />
+                <MintImageBg src=
+                {Image} type='welcome.png' />
             </MintBg>
             <MintContent>
                 <MintH1> Minting begins

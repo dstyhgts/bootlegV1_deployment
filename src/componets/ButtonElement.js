@@ -1,13 +1,14 @@
 import styled from 'styled-components';
-import {Link} from 'react-scroll';
+import {Link as LinkS} from 'react-scroll';
+import {Link as LinkR} from 'react-router-dom';
 
-export const Button = styled(Link)`
+export const Button = styled(LinkS)`
     border-radius: 50px;
     background: ${({primary}) => (primary ? '#a74cff' : '#010606')
     };
     white-space: nowrap;
     padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
-    color: ${({ dark }) => (dark ? '#010606' : '#010606')};
+    color: ${({ dark }) => (dark ? '#fff' : '#010606')};
     font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
     outline: none;
     border: none;
@@ -19,18 +20,19 @@ export const Button = styled(Link)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: ${({primary}) => (primary ? '#FFFF00': 
+        background: ${({primary}) => (primary ? '#00a1ff': 
         '#01BF71')};
+        
     }
 `
 
-export const BootButton = styled.a`
+export const BootButton = styled(LinkR)`
     border-radius: 50px;
     background: ${({primary}) => (primary ? '#a74cff' : '#010606')
     };
     white-space: nowrap;
     padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
-    color: ${({ dark }) => (dark ? '#010606' : '#fff')};
+    color: ${({ dark }) => (dark ? '#000' : '#00a1ff')};
     font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
     outline: none;
     border: none;
@@ -42,7 +44,8 @@ export const BootButton = styled.a`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: ${({primary}) => (primary ? '#fff': 
+        background: ${({primary}) => (primary ? '#ffff00': 
         '#01BF71')};
+        
     }
 `

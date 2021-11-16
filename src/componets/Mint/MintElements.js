@@ -43,7 +43,7 @@ export const MintBg = styled.div`
     overflow: hidden;
 `;
 
-export const MintVideoBg = styled.video`
+export const MintImageBg = styled.image`
     width: 100%;
     height: 100%;
     -o-object-fit: cover;

@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
-import Video from '../../videos/video.mp4'
+import Video from '../../videos/SunRise.mp4'
 import { BootButton } from '../ButtonElement'
 import {
+    HeroHt,
     HeroContainer, 
     HeroBg, 
     VideoBg,
@@ -27,10 +28,11 @@ const HeroSection = () => {
         <HeroContainer id='home'>
             <HeroBg>
                 <VideoBg autoPlay loop muted src=
-                {Video} type='video/mp4' />
+                {Video} type='SunRise/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>NEW! Doorfinns (As Seen On)
+                <HeroHt>NEW!</HeroHt>
+                <HeroH1>Doorfinns (As Seen On)
                     </HeroH1>
                 <HeroP>
                     5,555 ways to get your Doorfinns' pumping, under 

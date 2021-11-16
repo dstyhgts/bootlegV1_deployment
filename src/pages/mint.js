@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import Navbar from '../componets/Navbar'
+import MintNavbar from '../componets/MintNavbar'
 import ScrollToTop from '../componets/ScrollToTop.js'
-import Sidebar from '../componets/Sidebar'
+import MintSidebar from '../componets/MintSidebar'
 import MintSection from '../componets/Mint'
 
 const MintPage = () => {
@@ -14,8 +14,8 @@ const MintPage = () => {
     return (
         <>
             <ScrollToTop />
-            <Sidebar isOpen={isOpen} toggle={toggle} />
-           <Navbar toggle={toggle} />
+            <MintSidebar isOpen={isOpen} toggle={toggle} />
+           <MintNavbar toggle={toggle} />
            <MintSection />
            
         </>

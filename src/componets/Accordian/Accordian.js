@@ -77,9 +77,9 @@ const Container = styled.div`
 `
 
 const Wrap = styled.div`
-    background: #010606;
+    background: #00a1ff;
     max-width: 768px;
-    color: #a74cff;
+    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,7 +98,7 @@ const Wrap = styled.div`
 `
 
 const Dropdown = styled.div`
-    background: #010606;
+    background: #00a1ff;
     color: #FFf;
     width: 100%;
     max-height: 190px;
@@ -107,7 +107,7 @@ const Dropdown = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid #a74cff;
+    border-bottom: 2px solid #fff;
     
 
     p {

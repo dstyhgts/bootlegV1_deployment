@@ -90,7 +90,7 @@ const BootNavbar = ({toggle}) => {
                          exact='true' 
                          offset={-80}
                         >
-                        WTF
+                        Stubs
                         </NavLinks>
                     </NavItem>
                     <NavItem>

@@ -56,16 +56,14 @@ import {FiPlus, FiMinus} from 'react-icons/fi'
 
 const AccordianSection = styled.div`
     display: flex;
-    background: #000;
+    background: #010606;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
-    height: 100vh;
     z-index: 1;
     height: 1000px;
-    width: 100%;
-    max-width: 1100px;
+    max-width: 13000px;
     margin-right: auto;
     margin-left: auto;
 `;
@@ -80,7 +78,7 @@ const Container = styled.div`
 const Wrap = styled.div`
     background: #ffff00;
     max-width: 768px;
-    color: #000;
+    color: #010606;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -100,7 +98,7 @@ const Wrap = styled.div`
 
 const Dropdown = styled.div`
     background: #ffff00;
-    color: #000;
+    color: #010606;
     width: 100%;
     max-height: 190px;
     max-width: 768px;
@@ -108,7 +106,7 @@ const Dropdown = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #010606;
     
 
     p {
@@ -146,7 +144,7 @@ const BootAccordian = () => {
 
 
     return (
-    <IconContext.Provider value={{ color: '#fff', size: '35px' }}>
+    <IconContext.Provider value={{ color: '#010606', size: '35px' }}>
         {/* <AccordianBg>
                 <VideoBg autoPlay loop muted src=
                 {Video} type='video/mp4' />

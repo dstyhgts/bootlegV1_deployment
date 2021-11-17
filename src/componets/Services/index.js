@@ -8,8 +8,8 @@ import {
     ServicesWrapper,
     ServicesCard,
     ServicesIcon,
-    ServicesH2,
-    ServicesP
+    // ServicesH2,
+    // ServicesP
 } from './ServicesElements';
 
 const Services = () => {
@@ -20,18 +20,18 @@ const Services = () => {
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1}/>
-                    <ServicesH2>November</ServicesH2>
-                    <ServicesP>Meet The Doorfinns.</ServicesP>
+                    {/* <ServicesH2>November</ServicesH2>
+                    <ServicesP>Meet The Doorfinns.</ServicesP> */}
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
-                    <ServicesH2>December</ServicesH2>
-                    <ServicesP>Community Treasuries. Public wallets.</ServicesP>
+                    {/* <ServicesH2>December</ServicesH2>
+                    <ServicesP>Community Treasuries. Public wallets.</ServicesP> */}
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon3}/>
-                    <ServicesH2>January</ServicesH2>
-                    <ServicesP>Newfinns Eve Celebration!</ServicesP>
+                    {/* <ServicesH2>January</ServicesH2>
+                    <ServicesP>Newfinns Eve Celebration!</ServicesP> */}
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>

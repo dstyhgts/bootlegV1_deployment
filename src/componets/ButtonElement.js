@@ -32,7 +32,7 @@ export const BootButton = styled(LinkR)`
     };
     white-space: nowrap;
     padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
-    color: ${({ dark }) => (dark ? '#000' : '#00a1ff')};
+    color: ${({ dark }) => (dark ? '#fff' : '#00a1ff')};
     font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
     outline: none;
     border: none;
@@ -46,7 +46,7 @@ export const BootButton = styled(LinkR)`
         transition: all 0.2s ease-in-out;
         background: ${({primary}) => (primary ? '#ffff00': 
         '#01BF71')};
-        
+        color: ${({ dark }) => (dark ? '#00a1ff' : '#00a1ff')};
     }
 `
 
@@ -70,6 +70,6 @@ export const DoorButton = styled.a`
         transition: all 0.2s ease-in-out;
         background: ${({primary}) => (primary ? '#01BF71': 
         '#01BF71')};
-        
+        color: ${({ dark }) => (dark ? '#fff' : '#fff')};
     }
 `

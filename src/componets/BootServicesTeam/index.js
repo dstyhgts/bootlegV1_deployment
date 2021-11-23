@@ -24,12 +24,12 @@ const ServicesTeam = () => {
                     <ServicesH2>DstyHgts - Artist/Developer</ServicesH2>
                     <ServicesP>Started telling stories as an actor, then moved to directing and editing Music Videos and Films. Hoping to make them stick together on the dectralized Web. The stories/Movies, and maybe some acting. </ServicesP>
                 </ServicesCard>
-                <ServicesCard>
+                {/* <ServicesCard>
                     <ServicesIcon src={Icon2}/>
                     <ServicesH2>Edg3s - Advisor/Developer</ServicesH2>
                     <ServicesP>A prominet web3 investor and artist, making his mark on generative art and DeFi.
                         He works for a big company that didn't even know how to use a computer before he showed up.</ServicesP>
-                </ServicesCard>
+                </ServicesCard> */}
                 <ServicesCard>
                     <ServicesIcon src={Icon3}/>
                     <ServicesH2>Strange Eventful History - Writers</ServicesH2>

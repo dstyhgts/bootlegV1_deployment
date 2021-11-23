@@ -28,7 +28,7 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>"bootlegs"</FooterLinkTitle>
+                            <FooterLinkTitle to='/bootlegs'>(bootlegs)</FooterLinkTitle>
                                 <FooterLink to='/bootlegs'>Burn Mechanics</FooterLink>
                                 <FooterLink to='/bootlegs'>Physical Design</FooterLink>
                                 <FooterLink to='/bootlegs'>What's Next?</FooterLink>
@@ -38,9 +38,9 @@ const Footer = () => {
                                     aria-label="Opensea">Buy on Opensea</FootSocialIconLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle>Doorfinn (As Seen On TV)</FooterLinkTitle>
-                            <FooterLink to='/Mint'>Mint</FooterLink>
-                                <FooterLink to='/Rarities'>Rarities (Coming 11/15)</FooterLink>
+                            <FooterLinkTitle to='/'>(doorfinns)</FooterLinkTitle>
+                            <FooterLink to='/'>Mint</FooterLink>
+                                <FooterLink to='/'>Rarities (Coming 11/30)</FooterLink>
                             <FootSocialIconLink 
                                     href="//magiceden.io" 
                                     target="_blank"

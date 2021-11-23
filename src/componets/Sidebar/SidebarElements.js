@@ -81,7 +81,7 @@ export const LinkSidebarRoute = styled(LinkR)`
     cursor: pointer;
 
     &:hover {
-        color: #a74cff;
+        color: #ffff00;
         transition: 0.2s ease-in-out;
     }
 `

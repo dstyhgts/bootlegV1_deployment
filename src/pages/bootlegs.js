@@ -30,7 +30,7 @@ const BurnBootPage = () => {
            <BootInfoSection {...HomeObjSeven} />
            <BootAccordian />
            <ServicesTeam />
-           <Footer />
+           <Footer toggle={toggle}/>
            
         </>
     )

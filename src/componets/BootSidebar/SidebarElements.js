@@ -59,7 +59,7 @@ export const SidebarLink = styled(LinkS)`
     cursor: pointer;
 
     &:hover {
-        color: #a74cff;
+        color: #ffff00;
         transition: 0.2s ease-in-out;
     }
 `
@@ -102,7 +102,7 @@ export const SidebarRoute = styled(LinkR)`
     &:hover {
         transition: all 0.2s ease-in-out;
         background: #fff;
-        color: #a74cff;
+        color: #ffff00;
     }
 
 `
@@ -119,7 +119,7 @@ display: flex;
     cursor: pointer;
 
     &:hover {
-        color: #a74cff;
+        color: #ffff00;
         transition: 0.2s ease-in-out;
     }
 `

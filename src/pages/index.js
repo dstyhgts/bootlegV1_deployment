@@ -8,6 +8,7 @@ import ServicesTeam from '../componets/ServicesTeam';
 import Services from '../componets/Services';
 import Footer from '../componets/Footer';
 import Accordian from '../componets/Accordian/Accordian';
+import ScrollToTop from '../componets/ScrollToTop';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -18,6 +19,7 @@ const Home = () => {
 
     return (
         <>
+            <ScrollToTop />
            <Sidebar isOpen={isOpen} toggle={toggle} />
            <Navbar toggle={toggle} />
            <HeroSection />

@@ -6,8 +6,6 @@ TearPunch.zip filter=lfs diff=lfs merge=lfs -text
 /src/images/1.PNG filter=lfs diff=lfs merge=lfs -text
 /src/images/130.png filter=lfs diff=lfs merge=lfs -text
 /src/images/2.JPG filter=lfs diff=lfs merge=lfs -text
-/src/images/29.png filter=lfs diff=lfs merge=lfs -text
-/src/images/32.png filter=lfs diff=lfs merge=lfs -text
 /src/images/6.gif filter=lfs diff=lfs merge=lfs -text
 /src/images/76.png filter=lfs diff=lfs merge=lfs -text
 /src/images/Artboard1.png filter=lfs diff=lfs merge=lfs -text

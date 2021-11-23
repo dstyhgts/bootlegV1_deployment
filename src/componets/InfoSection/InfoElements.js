@@ -35,7 +35,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 1000px;
+    height: 100vh;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -113,6 +113,12 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
+`
+
+export const Video = styled.video`
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding-right: 0;
 `
 
 export const Img = styled.img`

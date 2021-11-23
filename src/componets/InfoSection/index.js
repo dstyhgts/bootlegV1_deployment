@@ -11,9 +11,9 @@ import {
     TopLine,
     Heading,
     Subtitle,
+    Video,
     BtnWrap,
     ImgWrap,
-    Img,
 } from './InfoElements'
 
 const InfoSection = ({
@@ -26,7 +26,7 @@ const InfoSection = ({
     darkText, 
     description, 
     buttonLabel,
-    img,
+    video,
     alt,
     primary,
     dark,
@@ -59,7 +59,7 @@ const InfoSection = ({
                        </Column1>
                        <Column2>
                         <ImgWrap>
-                            <Img src={img} alt={alt}/>
+                            <Video autoPlay loop muted src={video} alt={alt}/>
                         </ImgWrap>
                        </Column2>
                    </InfoRow>

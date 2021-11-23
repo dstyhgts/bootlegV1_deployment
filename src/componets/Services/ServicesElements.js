@@ -41,7 +41,7 @@ export const ServicesCard = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: column;
     border-radius: 0px;
     max-height: 450px;
     padding: 20px;

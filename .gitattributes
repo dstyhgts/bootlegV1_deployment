@@ -28,3 +28,4 @@ TearPunch.zip filter=lfs diff=lfs merge=lfs -text
 /src/images/road3.png filter=lfs diff=lfs merge=lfs -text
 /src/images/road45.png filter=lfs diff=lfs merge=lfs -text
 /src/images/roadmapfinal1.png filter=lfs diff=lfs merge=lfs -text
+/videos filter=lfs diff=lfs merge=lfs -text

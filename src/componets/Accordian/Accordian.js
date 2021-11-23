@@ -60,9 +60,7 @@ const AccordianSection = styled.div`
     align-items: center;
     justify-content: center;
     position: relative;
-    height: 100vh;
     z-index: 1;
-    height: 1000px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -127,7 +125,7 @@ export const TopLine = styled.p`
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 978px;
     padding-bottom: 16px;
 `
